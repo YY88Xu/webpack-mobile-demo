@@ -14,3 +14,7 @@ npm install --save-dev file-loader
 npm install webpack-dev-server --save-dev
 npm install --save-dev clean-webpack-plugin
 npm install --save-dev html-webpack-plugin
+
+## ES6  
+https://www.jianshu.com/p/67a158088807
+npm install babel-loader @babel/core @babel/preset-env --save-dev

@@ -34,7 +34,11 @@ module.exports = {
                     }
                 ]
             },
-
+            {
+                test:/\.js$/,   //匹配JS文件
+                use:'babel-loader',
+                exclude:/node_modules/   //排除node_modules目录
+            },
             {
                 test:/\.html$/,
                 use:[
